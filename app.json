@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PaymentsApp",
-    "slug": "PaymentsApp",
+    "slug": "payments-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3012ead2-95ae-4ea4-bc82-63c95ecd6353"
+      }
+    },
+    "owner": "mustansirr"
   }
 }
