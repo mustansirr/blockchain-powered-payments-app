@@ -63,11 +63,14 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    width: '80%',
+    width: '30%', // Reduced width from 80% to 60%
     borderColor: '#ccc',
     borderWidth: 1,
     marginBottom: 10,
     paddingHorizontal: 10,
+    borderRadius: 5, // Added a slight border radius to improve the look
+    backgroundColor: '#fff', // Added a white background to improve the look
+    fontSize: 16, // Increased font size for better readability
   },
   button: {
     backgroundColor: '#49A078',

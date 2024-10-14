@@ -2,7 +2,9 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
 const WelcomeScreen = ({ navigation }) => {
+  console.log('WelcomeScreen is being rendered');
   return (
+    
     <View style={styles.container}>
       <Text style={styles.title}>
         <Text style={styles.blackTitle}>Pay</Text>
